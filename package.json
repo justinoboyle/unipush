@@ -1,0 +1,26 @@
+{
+  "name": "unipush",
+  "version": "1.0.0",
+  "description": "Universal push notification server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinoboyle/unipush.git"
+  },
+  "keywords": [
+    "push",
+    "notification",
+    "apn",
+    "firebase",
+    "notification"
+  ],
+  "author": "Justin O'Boyle <justin@justinoboyle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinoboyle/unipush/issues"
+  },
+  "homepage": "https://github.com/justinoboyle/unipush#readme"
+}
