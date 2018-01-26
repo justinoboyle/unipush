@@ -25,7 +25,7 @@ const message = {
 }
 
 // full promise / async support
-server.sendMessage(recipients, message)
+server.pushServer(recipients, message)
       .then(() => console.log('Sent notifications!'))
 ```
 
@@ -64,6 +64,6 @@ const events = {
 }
 
 // full promise / async support
-server.sendMessage(recipients, message)
+server.pushClient(recipients, message)
       .then(() => console.log('Sent notifications!'))
 ```
