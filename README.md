@@ -64,6 +64,6 @@ const events = {
 }
 
 // full promise / async support
-server.pushClient(recipients, message)
+server.pushClient(recipients, message, events)
       .then(() => console.log('Sent notifications!'))
 ```
