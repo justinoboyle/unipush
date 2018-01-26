@@ -1,4 +1,4 @@
-# unpush
+# unipush
 
 Universal push notification server supporting across platforms.
 
